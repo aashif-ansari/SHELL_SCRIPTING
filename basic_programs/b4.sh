@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#simple array introduction
+#simple array with loop
 
 a=("apple" "banana" "watermelon" "muskmelon" "pineapple" "custerdapple" "papaya")
 
