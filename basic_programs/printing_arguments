@@ -1,0 +1,14 @@
+#!/bin/bash
+
+if [ $# -eq 0 ];then
+	echo "please provide arguments"
+else
+	total=0
+	for i in "$@"
+	do
+		echo "$i"
+		total=$((total + 1))
+	done
+	echo "total arguments are $total"
+		
+fi
